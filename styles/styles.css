@@ -1,7 +1,28 @@
 body {
     background-image: url("../images/background.jpg");
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #cccccc;
+    background-color: rgb(225, 225, 255);
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    line-height: 200%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Gill Sans, sans-serif
+}
+
+.generalSection {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.headSection {
+    text-align: center;
+    position:relative;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .imagesContext {
@@ -43,7 +64,7 @@ body {
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+    color: rgb(225, 225, 255);
     padding: 10px 0;
     height: 150px;
 }
@@ -80,7 +101,7 @@ body {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    color: rgb(225, 225, 255);
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -88,7 +109,7 @@ body {
 
 .closeButton:hover,
 .closeButton:focus {
-    color: #bbb;
+    color: rgb(225, 225, 255);
     text-decoration: none;
     cursor: pointer;
 }
