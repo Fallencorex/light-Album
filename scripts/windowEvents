@@ -1,10 +1,80 @@
 let modalImage = document.getElementById("imageContent");
 let captionContext = document.getElementById("captionContext");
 let modalWindow = document.getElementById("modalWindow");
+let closeButton = document.getElementsByClassName("closeButton")[0];
 const albumImg1 = document.getElementById("albumImg_1");
+const albumImg2 = document.getElementById("albumImg_2");
+const albumImg3 = document.getElementById("albumImg_3");
+const albumImg4 = document.getElementById("albumImg_4");
+const albumImg5 = document.getElementById("albumImg_5");
+const albumImg6 = document.getElementById("albumImg_6");
+const albumImg7 = document.getElementById("albumImg_7");
+const albumImg8 = document.getElementById("albumImg_8");
+const albumImg9 = document.getElementById("albumImg_9");
+const albumImg10 = document.getElementById("albumImg_10");
+const albumImg11 = document.getElementById("albumImg_11");
+const albumImg12 = document.getElementById("albumImg_12");
 
-albumImg1.onclick = function(){
-  modalWindow.style.display = "block";
-  modalImage.src = this.src;
-  captionContext.innerHTML = this.alt;
+albumImg1.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg2.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg3.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg4.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg5.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg6.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg7.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg8.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg9.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg10.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg11.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+albumImg12.onclick = function () {
+    modalWindow.style.display = "block";
+    modalImage.src = this.src;
+    captionContext.innerHTML = this.alt;
+}
+closeButton.onclick = function () {
+    modalWindow.style.display = "none";
 }
