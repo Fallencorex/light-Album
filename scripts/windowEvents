@@ -1,0 +1,10 @@
+let modalImage = document.getElementById("imageContent");
+let captionContext = document.getElementById("captionContext");
+let modalWindow = document.getElementById("modalWindow");
+const albumImg1 = document.getElementById("albumImg_1");
+
+albumImg1.onclick = function(){
+  modalWindow.style.display = "block";
+  modalImage.src = this.src;
+  captionContext.innerHTML = this.alt;
+}
